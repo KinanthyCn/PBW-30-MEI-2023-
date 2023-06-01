@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Praktikan PPW1</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Biodata Praktikkan PPW1</h1>
+        <div id="hasil"></div>
+    </div>
+
+    <script>
+        var konfirmasi = confirm("Apakah Anda Praktikkan PPW1?");
+        if (konfirmasi){
+            var nama = prompt("Masukkan Nama Anda");
+            var nim = prompt("Masukkan NIM Anda");
+            var angkatan = prompt("Masukkan Angkatan Anda");
+
+            var hasil = document.getElementById("hasil");
+            var tableHtml = `
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Nama</th>
+                            <th>NIM</th>
+                            <th>Angkatan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>${nama}</td>
+                            <td>${nim}</td>
+                            <td>${angkatan}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            `;
+
+            hasil.innerHTML = tableHtml;
+        } else {
+            var hasil = document.getElementById("hasil");
+            resultDiv.textContent = "Anda bukan praktikan PPW1, anda tidak boleh masuk!";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+.card{
+    width: 60%;
+    padding: 50px;
+}
+
+.bold{
+    font-weight: bold;
+    text-align: left;
+    height: 40px;
+}
+
+.summary{
+    display: flex;
+    width: 55%;
+}
+
+.hasil{
+    font-weight: bolder;
+}

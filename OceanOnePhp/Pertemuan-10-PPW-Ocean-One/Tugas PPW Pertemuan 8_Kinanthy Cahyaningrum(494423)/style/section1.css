@@ -1,0 +1,133 @@
+:root {
+    --RoyalBlue: #03256c;
+    --PersianBlue: #2541B2;
+    --GreenBlue: #1768AC;
+    --Aero: #06BEE1;
+    --White: #FFFFFF;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.oceanNavbar{
+    background-color: #f0f0f020;
+    z-index: 3;
+}
+
+.oceanNavbar .navbar{
+    justify-content: space-between;
+    padding: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.oceanNavbar .navbar .pad3{
+    padding: 50px;
+}
+
+.oceanNavbar .navbar .costumMenu{
+    width: 40%;
+    justify-content: space-between;
+    
+}
+
+.oceanNavbar .navbar .costumMenu a:hover{
+    color: #03256c;
+    transition: 0.4s;
+}
+
+.section1 {
+    background-image: url("../Images/heihei.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .container{
+    color: #FFFFFF;
+}
+
+.section1.container .title{
+    text-align: center;
+    font-weight: 200;
+    font-size : 1rem ;
+  
+}
+
+.section1 .container .description{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1rem;
+   
+}
+
+.section1 .container .button{
+    padding: 10px;
+    width: 40%;
+    background: #FFFFFF;
+    color: var(--GreenBlue);
+    border-radius: 30px;
+    border: 0px;
+    margin-top: 4svw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+}
+
+.section1 .container .button:hover{
+    background: #1768AC;
+    color: #06BEE1;
+    transition: 0.3s;
+}
+
+.section1 .container .button p{
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.5rem;
+    
+}
+
+@media (min-width: 750px){
+    .section1 .container .title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 5rem;
+    
+    .section1 .container .description{
+        text-align: center;
+        font-weight: 500;
+        font-size: 2rem;
+        
+    }
+}
+
+@media (min-width: 1000px){
+    .section1 .container .title{
+        text-align: center;
+        font-weight: 800;
+        font-size: 7rem;
+    }
+    
+    .section1 .container .description{
+        text-align: center;
+        font-weight: 500;
+        font-size: 2rem;
+        
+    }
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+}

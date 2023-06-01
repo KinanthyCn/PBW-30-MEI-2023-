@@ -1,0 +1,77 @@
+.section3{
+    background: url("../Images/impact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    padding: 5%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.section3 h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 5rem;
+}
+.section3 .btncard{
+    height: fit-content;
+    width: 14rem;
+    background-color: #f0f0f043;
+    border: 0;
+    border-radius: 10px;
+    margin: 40px;    
+    
+}
+
+.section3 .btncard:hover{
+    background-color: #f0f0f072; 
+    transition: 0.4s;
+}
+
+
+.section3 .btncard .dekorasiku .col{
+    background-color: transparent;
+    border: 0;
+    align-content: center;
+    text-align: center;
+    padding: 50px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+.section3 .dekorasiku p{
+    font-size: 17px;
+    color:#0e0e0e;
+    font-weight: 600;
+    padding: 0px;
+    text-align: center;
+}
+
+.section3 a {
+    text-decoration: none; 
+    height: 4rem;
+}
+
+
+
+.section3 .row{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+
+.icon{
+    fill: #ffffff;
+    align-self: center;
+    justify-content: center;
+
+    
+}

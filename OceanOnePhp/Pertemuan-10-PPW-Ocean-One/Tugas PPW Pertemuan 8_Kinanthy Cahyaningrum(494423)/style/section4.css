@@ -1,0 +1,87 @@
+.section4{
+    background-color: var(--White);
+}
+
+.section4 .row{
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section4 .col{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.section4 .heading{
+    padding: 5%;
+    padding-bottom: 50px;
+}
+
+.section4 h1{
+    color: var(--RoyalBlue);
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.section4 h1 .bigger_h1{
+    color: var(--RoyalBlue);
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.section4 h2 {
+    margin-bottom: 30px;
+    font-weight: 550;
+    font-size: 40px;
+}
+
+.project{
+    width: 100%;
+    color: var(--White);
+    font-size: 26px;
+}
+
+.r{
+    text-align: right;
+}
+
+.l{
+    text-align: left;
+}
+
+.r1{background-color: var(--PersianBlue);}
+.r2{background-color: var(--RoyalBlue);}
+.r3{background-color: var(--GreenBlue);}
+.r4{
+    background-color: var(--Aero);
+    color: var(--RoyalBlue);
+}
+
+.img1{
+    background: url('../Images/pollution-flowocean-1600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2{
+    background: url('../Images/1574752788_domestic-plaste-waste-turned-into-brick--1--resize.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3{
+    background: url('../Images/NetWasting.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img4{
+    background: url('../Images/diyGear.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

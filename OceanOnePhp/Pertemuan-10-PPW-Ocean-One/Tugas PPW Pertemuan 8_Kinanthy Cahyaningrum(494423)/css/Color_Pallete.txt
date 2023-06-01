@@ -1,0 +1,5 @@
+Royal Blue   : #03256C
+Persian Blue : #2541B2
+Green Blue   : #1768AC
+Aero         : #06BEE1
+White        : #FFFFFF

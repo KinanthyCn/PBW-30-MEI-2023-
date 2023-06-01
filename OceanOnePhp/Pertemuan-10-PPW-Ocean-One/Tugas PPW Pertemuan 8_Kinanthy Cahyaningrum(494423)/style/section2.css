@@ -1,0 +1,47 @@
+.section2{
+    background-color:#ffffff;
+    width: 100%;
+    padding: 5%;
+}
+
+.section2  h1 {
+    font-weight: 700;
+    color : #03256c;
+}
+
+.section2 h2 {
+    font-weight: 600;
+    color: #03256c; 
+}
+
+.section2 p {
+    font-size: larger;
+    min-height: 200px;
+    margin-bottom: 4rem;
+}
+
+.section2 .btncard{
+    height: fit-content;
+    background-color: #f0f0f098;
+    border: 0;
+    border-radius: 10px;
+    
+    margin: 10px;    
+    
+}
+
+.section2 .btncard .dekorasiku{
+    text-align: left;
+    border: 0;
+    padding: 50px;
+    height: fit-content;
+    display: flex wrap;
+    justify-content: space-between;
+
+    min-height: 550px;
+
+}
+
+.section2 .btncard .dekorasiku .bottom{
+    text-align: center;
+}

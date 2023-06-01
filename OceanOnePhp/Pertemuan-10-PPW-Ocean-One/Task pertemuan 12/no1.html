@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tugas Praktikum No.1</h1>
+    <button onclick="cekBilangan()">Cek Bilangan</button>
+    <br />
+    <h3 id="hasil"><br /><br /><br /></h3>
+    <script>
+     function cekBilangan() {
+        let bil1 = parseFloat(prompt("Bilangan pertama :"));
+        let bil2 = parseFloat(prompt("Bilangan kedua :"));
+        let predikat;
+
+         if (bil1 > bil2) {
+            predikat = "lebih besar dari";
+         } else if (bil1 < bil2) {
+             predikat = "lebih kecil dari";
+         } else {
+            predikat = "sama dengan";
+        }
+        let hasil = document.getElementById("hasil");
+        hasil.innerHTML = `Bilangan 1 = ${bil1}<br>Bilangan 2 = ${bil2}<br> Hasil : Bilangan ke-1 ${predikat} bilangan ke-2`;
+}  
+    </script>
+</body>
+</html>

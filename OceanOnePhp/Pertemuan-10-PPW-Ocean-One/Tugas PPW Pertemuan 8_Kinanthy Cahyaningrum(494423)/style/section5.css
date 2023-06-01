@@ -1,0 +1,93 @@
+.section5{
+    background-color: #ffffff;
+    color:var(--RoyalBlue);
+    padding: 5%;
+}
+
+.section5 h1{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.section5 .title{
+    width: 100%;
+    padding: 50px;
+    margin-right: 0;
+    text-align: center;
+}
+
+.section5 iframe{
+    border-radius: 10px;
+}
+
+.section5 h2{
+    font-size: 24px;
+}
+
+.section5 button{
+    width: 100%;
+    outline-width: 0;
+    outline-color: transparent;
+    font-size: 20;
+    padding: 24px;
+    border-radius: 15px;
+    background-color: #03256c;
+}
+
+.section5 button:hover{
+    background-color: #06BEE1;
+    outline-width: 0;
+    outline-color: transparent;
+    transition: 0.5s;
+}
+
+.section5 button p{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer{
+    padding: 3%;
+    padding-bottom: 4%;
+    background-color: #ffffff;
+    height: 5rem;
+    font-size: 20px;
+}
+
+.footer .row{
+    align-self: center;
+}
+
+.footer .Brand{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    align-self: center;
+}
+
+
+.footer .logo{
+    height: 100px;
+}
+
+.footer .logo img{
+    z-index: 99;
+    position: relative;
+    transform: translateY(-10px);
+}
+
+.footer .menu{
+    text-align: center;
+}
+
+.footer .menu a{
+    text-decoration: none;
+    color:var(--RoyalBlue);
+}
+
+.footer .menu a:hover{
+    text-decoration: none;
+    color: #06BEE1;
+}
